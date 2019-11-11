@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  position: fixed;
+  background: #007765;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1130px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+}
+
+.logo {
+  float: left;
+  width: 184px;
+  height: 45px;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  margin: 6px 0 0 0;
+  padding: 0;
+}
+
+.menu li {
+  float: left;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-right: 23px;
+  position: relative;
+}
+
+.menu li:after {
+  content: "";
+  background: #FFFFFF;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  right: -12px;
+  top: 5px;
+}
+
+.menu li:last-child:after {
+  display: none;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.piper-net {
+  background: no-repeat center url(./img/piper-net.jpg);
+  height: 403px;
+}
+
+.piper-net .title {
+  font-weight: 500;
+  font-size: 72px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 160px;
+  margin: 0;
+}
+
+.the-problem {
+  background: #EEEEEE;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  padding-bottom: 92px;
+}
+
+.the-problem .container p:last-child {
+  margin-bottom: 0;
+}
+
+.hero {
+  background: url(./img/blue.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+
+.hero-inner {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  max-width: 893px;
+  margin: 0 auto;
+}
+
+.piedpipercoin {
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 92px;
+}
+
+.first-p {
+  margin-top: 16px;
+  padding-left: 163px;
+}
+
+.ppc-logo {
+  width: 115px;
+  height: 115px;
+  float: left;
+  margin-top: 13px;
+}
+
+.team {
+  background: #EEEEEE;
+  padding-top: 56px;
+  text-align: center;
+}
+
+.team h2 {
+  margin-bottom: 56px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+  padding-top: 12px;
+}
+
+.position {
+  font-style: italic;
+  font-size: 18px;
+  color: #000000;
+}
+
+.card {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 82px;
+}
+
+.footer {
+  background-color: #333333;
+  padding-top: 50px;
+  padding-bottom: 62px;
+}
+
+.footer .footer-content {
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 540px;
+}
